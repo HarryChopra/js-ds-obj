@@ -1,0 +1,116 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 7,
+    "passes": 7,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-17T22:55:58.285Z",
+    "end": "2022-02-17T22:55:58.682Z",
+    "duration": 397
+  },
+  "tests": [
+    {
+      "title": "returns a driver with the original key value pairs and the new key value pair",
+      "fullTitle": "drivers updateDriverWithKeyAndValue(driver, key, value) returns a driver with the original key value pairs and the new key value pair",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it does not modify the original driver, but rather returns a clone with the new data",
+      "fullTitle": "drivers updateDriverWithKeyAndValue(driver, key, value) it does not modify the original driver, but rather returns a clone with the new data",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "updates `driver` with the given `key` and `value` (it is destructive) and returns the entire updated driver",
+      "fullTitle": "drivers destructivelyUpdateDriverWithKeyAndValue(driver, key, value) updates `driver` with the given `key` and `value` (it is destructive) and returns the entire updated driver",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "deletes `key` from a clone of driver and returns the new driver (it is non-destructive)",
+      "fullTitle": "drivers deleteFromDriverByKey(driver, key) deletes `key` from a clone of driver and returns the new driver (it is non-destructive)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original driver (it is non-destructive)",
+      "fullTitle": "drivers deleteFromDriverByKey(driver, key) does not modify the original driver (it is non-destructive)",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns driver without the delete key/value pair",
+      "fullTitle": "drivers destructivelyDeleteFromDriverByKey(driver, key) returns driver without the delete key/value pair",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "modifies the original driver",
+      "fullTitle": "drivers destructivelyDeleteFromDriverByKey(driver, key) modifies the original driver",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "returns a driver with the original key value pairs and the new key value pair",
+      "fullTitle": "drivers updateDriverWithKeyAndValue(driver, key, value) returns a driver with the original key value pairs and the new key value pair",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it does not modify the original driver, but rather returns a clone with the new data",
+      "fullTitle": "drivers updateDriverWithKeyAndValue(driver, key, value) it does not modify the original driver, but rather returns a clone with the new data",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "updates `driver` with the given `key` and `value` (it is destructive) and returns the entire updated driver",
+      "fullTitle": "drivers destructivelyUpdateDriverWithKeyAndValue(driver, key, value) updates `driver` with the given `key` and `value` (it is destructive) and returns the entire updated driver",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "deletes `key` from a clone of driver and returns the new driver (it is non-destructive)",
+      "fullTitle": "drivers deleteFromDriverByKey(driver, key) deletes `key` from a clone of driver and returns the new driver (it is non-destructive)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original driver (it is non-destructive)",
+      "fullTitle": "drivers deleteFromDriverByKey(driver, key) does not modify the original driver (it is non-destructive)",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns driver without the delete key/value pair",
+      "fullTitle": "drivers destructivelyDeleteFromDriverByKey(driver, key) returns driver without the delete key/value pair",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "modifies the original driver",
+      "fullTitle": "drivers destructivelyDeleteFromDriverByKey(driver, key) modifies the original driver",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
